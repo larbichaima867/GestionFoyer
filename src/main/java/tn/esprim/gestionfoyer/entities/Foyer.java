@@ -5,6 +5,7 @@ import lombok.*;
 
 import java.io.Serializable;
 import java.util.List;
+import java.util.Set;
 
 
 @Entity
@@ -24,6 +25,6 @@ public class Foyer implements Serializable {
     private Universite universite ;
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "foyer")
-    private List<Bloc> blocs;
+    private Set<Bloc> blocs;
 
 }

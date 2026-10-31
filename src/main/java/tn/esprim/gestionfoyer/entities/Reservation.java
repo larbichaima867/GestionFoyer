@@ -23,6 +23,4 @@ public class Reservation implements Serializable {
     @ManyToMany(cascade = CascadeType.ALL)
     private List<Etudiant> etudiants;
 
-    @ManyToOne
-    private Chambre chambre;
 }

@@ -1,4 +1,3 @@
-
 package tn.esprim.gestionfoyer.controller;
 
 import lombok.AllArgsConstructor;

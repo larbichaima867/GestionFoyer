@@ -25,6 +25,6 @@ public class Chambre implements Serializable {
     @ManyToOne
     private Bloc bloc;
 
-    @OneToMany(mappedBy = "chambre", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private List<Reservation> reservations;
 }

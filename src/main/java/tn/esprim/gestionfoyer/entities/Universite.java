@@ -21,6 +21,6 @@ public class Universite  implements Serializable {
     private String nomUniversite;
     private String adresse;
 
-    @OneToOne(mappedBy = "universite")
+    @OneToOne
     private Foyer foyer;
 }
