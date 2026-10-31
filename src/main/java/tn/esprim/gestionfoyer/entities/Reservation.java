@@ -15,7 +15,7 @@ import java.util.List;
 @NoArgsConstructor
 public class Reservation implements Serializable {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     private String idReservation;
     private Date anneeUniversitaire;
     private boolean estValide;
